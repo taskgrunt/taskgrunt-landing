@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Urban Gala Landing Page</title>
+  <meta name="description" content="Urban Gala Landing Page – Elegant, responsive portfolio by TaskGrunt. Includes landing pages, gallery, Fiverr services, and contact form." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div id="hero">
+    <div class="hero-images">
+      <img class="hero-slide active" src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Hero image 1" />
+      <img class="hero-slide" src="https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Hero image 2" />
+      <img class="hero-slide" src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Hero image 3" />
+    </div>
+    <div class="hero-text">
+      <h1>Welcome to My Gala Page</h1>
+      <p>Urban, elegant, and interactive web design</p>
+    </div>
+  </div>
+
+  <!-- What I Offer -->
+  <section class="reveal">
+    <h2>What I Offer</h2>
+    <p>I create fast, responsive, and visually appealing landing pages for businesses and individuals.</p>
+  </section>
+
+  <!-- Gallery -->
+  <section class="reveal">
+    <h2>Gallery</h2>
+    <div class="carousel">
+      <img class="active" src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="City skyline at night" />
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Urban street view" />
+      <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Elegant building interior" />
+      <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Creative workspace" />
+      <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Scenic architecture" />
+    </div>
+  </section>
+
+  <!-- Fiverr Offer -->
+  <section class="reveal">
+    <h2>My Fiverr Offer</h2>
+    <p>Need fast and reliable help with sites, setup, web assistance, or landing page design?  
+    Visit my Fiverr profile: <a href="https://www.fiverr.com/taskgrunt" target="_blank">TaskGrunt on Fiverr</a></p>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="reveal">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <p>✅ Your message was sent successfully!</p>
+      <button onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
