@@ -15,6 +15,7 @@ This site is hosted using **GitHub Pages**.
 You can view the live demo here:  
 [https://username.github.io/taskgrunt-landing](https://username.github.io/taskgrunt-landing)
 
-*(Replace `username` with your GitHub handle.)*
+
 
 ## 📂 Project Structure
+taskgrunt-landing/ │ ├── index.html # Main HTML file (landing page) ├── style.css # Styling: layout, animations, responsive design ├── script.js # JavaScript: slideshow, scroll reveal, EmailJS, carousel │ ├── README.md # Project description and documentation ├── LICENSE # MIT license (usage permissions)
